@@ -1,0 +1,18 @@
+# Netscape HTTP Cookie File - placeholder
+# Replace this file with an exported cookies.txt from your browser.
+#
+# How to get cookies:
+# - Use a browser extension that exports cookies in "Netscape" format (e.g. "Get cookies.txt").
+# - Or let yt-dlp read directly from your browser by setting environment variable
+#   YTDLP_COOKIES_FROM_BROWSER to your browser name (e.g. chrome, firefox).
+#
+# Options:
+# - Place the exported cookies file here and set YTDLP_COOKIES_FILE to this path.
+# - Or set YTDLP_COOKIES_FROM_BROWSER to "chrome" or "firefox" to let yt-dlp pull cookies.
+#
+# Example (PowerShell):
+#   $env:YTDLP_COOKIES_FILE = "${PWD}\cookies.txt"
+#   $env:YTDLP_COOKIES_FROM_BROWSER = "chrome"
+#
+# Replace the following line with your exported cookies (Netscape format):
+#
