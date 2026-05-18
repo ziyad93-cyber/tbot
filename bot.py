@@ -15,6 +15,7 @@ from telegram.ext import (
 BOT_TOKEN = "8483787111:AAFzc65rX_78C3DugnefCaYUDsG95FGNr-c"
 COOKIES_FILE = Path(os.environ.get("YTDLP_COOKIES_FILE", "cookies.txt"))
 COOKIES_FROM_BROWSER = os.environ.get("YTDLP_COOKIES_FROM_BROWSER")
+DEFAULT_BROWSERS = ["chrome", "edge", "firefox", "brave"]
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -72,8 +73,22 @@ async def download_video(update: Update, context: ContextTypes.DEFAULT_TYPE):
         elif COOKIES_FILE.exists():
             ydl_opts["cookiefile"] = str(COOKIES_FILE)
 
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([url])
+        if "cookiefile" not in ydl_opts and "cookies_from_browser" not in ydl_opts:
+            download_exception = None
+            for browser in DEFAULT_BROWSERS:
+                try:
+                    ydl_opts["cookies_from_browser"] = browser
+                    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                        ydl.download([url])
+                    break
+                except Exception as ex:
+                    download_exception = ex
+                    ydl_opts.pop("cookies_from_browser", None)
+            else:
+                raise download_exception
+        else:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                ydl.download([url])
 
         # ensure final 100% update
         try:
