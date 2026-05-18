@@ -1,18 +1,26 @@
-# Netscape HTTP Cookie File - placeholder
-# Replace this file with an exported cookies.txt from your browser.
-#
-# How to get cookies:
-# - Use a browser extension that exports cookies in "Netscape" format (e.g. "Get cookies.txt").
-# - Or let yt-dlp read directly from your browser by setting environment variable
-#   YTDLP_COOKIES_FROM_BROWSER to your browser name (e.g. chrome, firefox).
-#
-# Options:
-# - Place the exported cookies file here and set YTDLP_COOKIES_FILE to this path.
-# - Or set YTDLP_COOKIES_FROM_BROWSER to "chrome" or "firefox" to let yt-dlp pull cookies.
-#
-# Example (PowerShell):
-#   $env:YTDLP_COOKIES_FILE = "${PWD}\cookies.txt"
-#   $env:YTDLP_COOKIES_FROM_BROWSER = "chrome"
-#
-# Replace the following line with your exported cookies (Netscape format):
-#
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.youtube.com	TRUE	/	TRUE	1813678336	PREF	f7=4100&tz=Africa.Nairobi&f4=4000000&f6=40000000
+.youtube.com	TRUE	/	TRUE	1809502387	LOGIN_INFO	AFmmF2swRgIhAK_6NLjUako3aNe1Wse_hdsqAAg4ajImDAJxfZoBDExrAiEA1xy70d2f25Jyz5L5hkyyJBg6pT5hQvDoZS8hhyyGZkA:QUQ3MjNmeDF4STVsYmYzSUNVeEFWeVJwU1YzRXRmbjNVOVhvb0ZGejZHTlJhOE5uZUR1c3BCX3MxaXVHUTZocHFEb2RPTjhBUnlqY2hRcEJYZHlVeERIR2dvVnkxRWFpUll4dW9SRUo4cFU4RjhkZEItQ19UYmNBbVd3LVk2S3d1WjRTNXltVUV3QkR3Z09ZQ3FXdy0yX25ENHZYSmhLeW13
+.youtube.com	TRUE	/	FALSE	1812716561	HSID	Ar8L2TnhCJqSY0Ri3
+.youtube.com	TRUE	/	TRUE	1812716561	SSID	AFnOgNRL4GFVN8qzR
+.youtube.com	TRUE	/	FALSE	1812716561	APISID	PVt1veds56zZWkk3/AJ2MMp3u3bA9Tjv9Y
+.youtube.com	TRUE	/	TRUE	1812716561	SAPISID	Lwonlsmhz8b1Tz3z/AsjOwxuMHs5G38-vZ
+.youtube.com	TRUE	/	TRUE	1812716561	__Secure-1PAPISID	Lwonlsmhz8b1Tz3z/AsjOwxuMHs5G38-vZ
+.youtube.com	TRUE	/	TRUE	1812716561	__Secure-3PAPISID	Lwonlsmhz8b1Tz3z/AsjOwxuMHs5G38-vZ
+.youtube.com	TRUE	/	TRUE	1791309456	__Secure-BUCKET	CJ8C
+.youtube.com	TRUE	/	FALSE	1812716561	SID	g.a0009ggH8GIIa1wPd8RxZaBmjdqmK7HKmcsKFY517jkuuOiL18lF7v9QqQZPZ2C0vcw5h39iwwACgYKAYoSARASFQHGX2MiuzINGCX7lRm9x3ymeH9wRxoVAUF8yKpuO8Az52WUAacF-JMwT5jt0076
+.youtube.com	TRUE	/	TRUE	1812716561	__Secure-1PSID	g.a0009ggH8GIIa1wPd8RxZaBmjdqmK7HKmcsKFY517jkuuOiL18lFaB3Rp1Gi_wpPS3hfQWb1ZQACgYKAe4SARASFQHGX2MiVFHg3Vg5nwsxBQfBTZDMGRoVAUF8yKpFgL3L3fBHrweq1AwYsHBh0076
+.youtube.com	TRUE	/	TRUE	1812716561	__Secure-3PSID	g.a0009ggH8GIIa1wPd8RxZaBmjdqmK7HKmcsKFY517jkuuOiL18lFSCuFLazq-JSAxFJvFLiwygACgYKAYESARASFQHGX2MiJlWqkoLdWJB8AyYegmVzBxoVAUF8yKqbYnKgwZXisGgWucQ80T0i0076
+.youtube.com	TRUE	/	TRUE	1810654339	__Secure-1PSIDTS	sidts-CjQBhkeRd3rANYtV7nnihrQq1fWG819NeJAyfWFC-ZgQKivakx5Uex325BDkiYgsSJrq_CfNEAA
+.youtube.com	TRUE	/	TRUE	1810654339	__Secure-3PSIDTS	sidts-CjQBhkeRd3rANYtV7nnihrQq1fWG819NeJAyfWFC-ZgQKivakx5Uex325BDkiYgsSJrq_CfNEAA
+.youtube.com	TRUE	/	FALSE	1810654339	SIDCC	AKEyXzXywOm2qxLyfvCN_3YKp4B2rHlP4njJM0WTapbdd-FBLH_2h_gn_x0dp9L9PXaBS0lb_A
+.youtube.com	TRUE	/	TRUE	1810654339	__Secure-1PSIDCC	AKEyXzWVPLZU_RvZ4eOjl-GL_1Q9DFFJL6vrQfze99w_QhKNHUOdKUi7SbGR2OuIB3-8hxkh
+.youtube.com	TRUE	/	TRUE	1810654339	__Secure-3PSIDCC	AKEyXzVU6AV8pUmf_K0piG4P0QckIyndweoZSBO8iXbK_K5oiYmXtLc9cCUN-mXW15apsI3gK_o
+.youtube.com	TRUE	/	TRUE	1794670334	VISITOR_INFO1_LIVE	Gz4okE-6VMw
+.youtube.com	TRUE	/	TRUE	1794670334	VISITOR_PRIVACY_METADATA	CgJFVBIEGgAgIw%3D%3D
+.youtube.com	TRUE	/	TRUE	0	YSC	4FRdqIzheuw
+.youtube.com	TRUE	/	TRUE	1794668303	__Secure-ROLLOUT_TOKEN	CPSE2Jfw5YunNBCLx6mK-rmLAxiF-fPZjMOUAw%3D%3D
+.youtube.com	TRUE	/	TRUE	1794668318	__Secure-YNID	18.YT=Vj40d-iD_Eg3g6rrxgc09pUvmY9pFUtsxrmTSg9qaCzZ0P7onU0GMp8bbKlr0HZODll4Nhzbj2yJxib0OklgdYlSjB6FZ4tkcNwb7kjxj4bURuSPqaJTHWQyScd_o4YnU5o1tzMl1W4lhY2TNh5mepzyYO3pBVhsUJmm5NDOTXin-qVXxIpMqrJlj0i-uy9XCiQAM-kYPkGN1K0ZuhU__9vUMeBhazFeSLAzc5ARu4M6evM2sZS1LU2lYFt2xBIh1hdo6JdWh1TH0ENS79S5RRllaGz2tHJ5PY-zDbHpboq1wiUhCYv1F9oPo2fFpB3eVpxrb2X155jf5lH3ogITYQ
